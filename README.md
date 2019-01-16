@@ -1,6 +1,9 @@
 # spinnerpy
 🔥 Spinnerpy new python loading spinners repository [!]
 
+# tests/test.py GIF
+<img src="https://image.prntscr.com/image/FQd_WtrqTXedcAr--0iaTg.gif">
+
 # Style-list
 
 <table>
