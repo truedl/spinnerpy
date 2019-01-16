@@ -71,12 +71,12 @@ start(self, progress=None, args:list=None, text:str='', times:int=None, wait:flo
 ```
 <i>Start the spinner</i>
 
-`progress` - `Function` - `(The spinner will spin until the progress is over)`
-`args` - `Array` - `(If progress is provided you can transfer arguments to the function)`
-`text` - `String` - `(Text before spinner | Example: text='Loading... ' - Output: Loading... {Spinner Here})`
-`times` - `Integer` - `(If progress not provided you can control how many times the spinner will spin)`
-`wait` - `Float` - `(Seconds to next char)`
-`color` - `String` - `(Change spinner+text color)`
+`progress` - `Function` - `(The spinner will spin until the progress is over)`<br/>
+`args` - `Array` - `(If progress is provided you can transfer arguments to the function)`<br/>
+`text` - `String` - `(Text before spinner | Example: text='Loading... ' - Output: Loading... {Spinner Here})`<br/>
+`times` - `Integer` - `(If progress not provided you can control how many times the spinner will spin)`<br/>
+`wait` - `Float` - `(Seconds to next char)`<br/>
+`color` - `String` - `(Change spinner+text color)`<br/>
 
 <b>stop</b>
 ```
