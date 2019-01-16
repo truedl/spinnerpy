@@ -64,3 +64,22 @@
 ```
 Spinner(style:str)
 ```
+
+<b>start</b>
+```
+start(self, progress=None, args:list=None, text:str='', times:int=None, wait:float=.2, color:str=None)
+```
+<i>Start the spinner</i>
+
+`progress` - `Function` - `(The spinner will spin until the progress is over)`
+`args` - `Array` - `(If progress is provided you can transfer arguments to the function)`
+`text` - `String` - `(Text before spinner | Example: text='Loading... ' - Output: Loading... {Spinner Here})`
+`times` - `Integer` - `(If progress not provided you can control how many times the spinner will spin)`
+`wait` - `Float` - `(Seconds to next char)`
+`color` - `String` - `(Change spinner+text color)`
+
+<b>stop</b>
+```
+stop(self)
+```
+<i>Stop the spinner</i>
