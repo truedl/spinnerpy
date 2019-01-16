@@ -11,5 +11,5 @@ def SecondProgress(number):
 
 spinner.Spinner('default').start(progress=FirstProgress, text='First Progress in progress... ')
 print('\nDONE')
-spinner.Spinner('dots').start(progress=SecondProgress, args=[randint(1, 10)], text='Seconds Progress in progress... ')
+spinner.Spinner('dots').start(progress=SecondProgress, args=[randint(1, 10)], text='Seconds Progress in progress... ') # OH.. I wrote seconds instead of second, nevermind
 print('DONE')
